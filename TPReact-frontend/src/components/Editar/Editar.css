@@ -1,0 +1,45 @@
+.editar-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #2e7d32;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2e7d32;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
